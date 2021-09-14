@@ -1,0 +1,21 @@
+#INSTALL VIRT MANAGER ON WINDOWS 10
+
+1. Enable [WSL](https://www.how2shout.com/how-to/enable-windows-subsystem-linux-feature.html) - Windows subsystem for Linux
+
+2. download and install [mobaxterm](https://mobaxterm.mobatek.net/download-home-edition.html) home edition
+3. Open mobaxterm and run wsl linux
+
+4. Install virt manager - sudo update / sudo apt install virt-manager
+5. Run Virt-Manager Gui on windows 10 - sudo virt-manager
+
+##If not allowed to connect to server install ssh-askpass
+
+1. sudo apt-get install -y ssh-askpass
+
+
+
+
+
+
+
+
